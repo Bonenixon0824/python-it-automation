@@ -1,5 +1,9 @@
 # Python IT Automation
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Overview
 
 This repository contains Python automation scripts designed to support common IT tasks, improve efficiency, and demonstrate practical scripting skills.
@@ -33,8 +37,9 @@ python-it-automation/
 │   └── README.md
 │
 ├── password_generator.py
-├── README.md
-└── LICENSE
+├── HOW-TO-RUN.md
+├── LICENSE
+└── README.md
 ```
 
 ---
@@ -45,15 +50,37 @@ python-it-automation/
 
 The `password_generator.py` script generates secure random passwords using Python's built-in `secrets` module.
 
-Features include:
+### Features
 
+- Generate cryptographically secure passwords
 - User-defined password length
-- Uppercase and lowercase letters
-- Numbers
-- Special characters
-- Minimum password-length validation
-- Error handling for invalid input
-- Cryptographically secure random generation
+- Includes uppercase and lowercase letters
+- Includes numbers
+- Includes special characters
+- Built using Python's `secrets` module
+- Beginner-friendly and easy to modify
+
+---
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Bonenixon0824/python-it-automation.git
+```
+
+Navigate into the project:
+
+```bash
+cd python-it-automation
+```
+
+Run the script:
+
+```bash
+python password_generator.py
+```
 
 ---
 
@@ -66,6 +93,8 @@ The screenshot below demonstrates successful execution of the password generator
 ### Secure Password Generator
 
 ![Password Generator](./Screenshots/password-generator.png)
+
+*This example shows the script generating a secure 16-character password using Python's `secrets` module.*
 
 ---
 
@@ -93,7 +122,7 @@ This project was created to:
 - String Manipulation
 - Automation
 - Technical Documentation
-- Git and GitHub
+- Git & GitHub
 
 ---
 
@@ -125,7 +154,7 @@ This project was created to:
 - File Organizer
 - Disk Usage Checker
 - Log File Parser
-- CSV Data Analyzer
+- CSV Report Generator
 - Network Ping Tool
 - Backup Automation
 - System Information Reporter
@@ -137,7 +166,7 @@ This project was created to:
 
 Hi, I'm **Nixon Bone**.
 
-I hold a Bachelor of Science in Information Technology with a concentration in Cybersecurity and have professional experience in technical support. I am building hands-on projects in Python, PowerShell, SQL, networking, and Windows administration to strengthen my automation and technical problem-solving skills.
+I hold a Bachelor of Science in Information Technology with a concentration in Cybersecurity and have professional experience in technical support. I build hands-on projects in Python, PowerShell, networking, SQL, and Windows administration to strengthen my automation and technical problem-solving skills while expanding my knowledge of systems administration and cybersecurity.
 
 ## Connect With Me
 
